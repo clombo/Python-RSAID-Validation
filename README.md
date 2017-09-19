@@ -10,7 +10,7 @@ from IDVal import IDValid
 
 testID = IDValid()
 ```
-IDValid() takes an optional parameter ID which can be set to a RSA ID number you wish to validate.
+IDValid() takes an optional parameter IDNum which can be set to a RSA ID number you wish to validate.
 
 ```python
-testID = IDValid(ID='8001015009087')
+testID = IDValid(IDNum='8001015009087')
